@@ -1,0 +1,67 @@
+/* ProductItem.css */
+
+.product-item {
+    background-color: white; /* White background for product items */
+    border: 1px solid #dee2e6; /* Light border for product items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding inside product items */
+    text-align: center; /* Center-align text */
+    transition: box-shadow 0.2s, transform 0.2s; /* Animation for hover effects */
+}
+
+.product-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+    transform: translateY(-2px); /* Slightly lift on hover */
+}
+
+.product-item img {
+    width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.product-item h3 {
+    font-size: 1.5rem; /* Title font size */
+    color: #343a40; /* Dark text color */
+    margin: 15px 0; /* Margin above and below title */
+}
+
+.product-item p {
+    font-size: 1rem; /* Description font size */
+    color: #495057; /* Darker gray for description text */
+}
+
+.product-item .price {
+    font-size: 1.2rem; /* Price font size */
+    color: #28a745; /* Green color for price */
+    margin: 10px 0; /* Margin above and below price */
+}
+
+.product-item button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Transition effect for button */
+}
+
+.product-item button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .product-item {
+        padding: 15px; /* Smaller padding on mobile */
+    }
+
+    .product-item h3 {
+        font-size: 1.25rem; /* Smaller title on mobile */
+    }
+
+    .product-item .price {
+        font-size: 1rem; /* Smaller price on mobile */
+    }
+}

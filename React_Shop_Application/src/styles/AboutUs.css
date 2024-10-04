@@ -1,0 +1,15 @@
+/* AboutUs.css */
+
+.about {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.about h1 {
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+}

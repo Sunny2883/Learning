@@ -1,0 +1,60 @@
+# Build directories
+/target/
+/bin/
+/out/
+
+# IDE files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# Maven files
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+# Gradle files
+/.gradle/
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+
+# Logs
+*.log
+logs/
+log/
+
+# Database files
+*.h2.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# JPA and Hibernate specific
+*.hbm.xml
+*.dtd
+
+# Spring Boot specific
+application.propertie
+application.yml
+
+# Miscellaneous
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+# Ignore Oracle JDK 22 binaries
+/src/main/java/com/example/demo/Model/Oracle_JDK-22/bin/
+
+
+/src/main/java/com/example/demo/Model/Oracle_JDK-22/lib/modules
+/src/main/java/com/example/demo/Model/OpenJDK-21/lib/modules

@@ -1,0 +1,14 @@
+/* Cart.css */
+
+.cart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cart {
+        padding: 10px;
+    }
+}
